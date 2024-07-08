@@ -1,0 +1,23 @@
+{
+  "$schema": "https://tolgee.io/cli-schema.json",
+  "format": "JSON_TOLGEE",
+  "projectId": 1,
+  "apiUrl": "http://localhost:8085",
+  "patterns": [
+    "./src/**/*.ts?(x)"
+  ],
+  "extractor": "./scripts/extract-i18n/index.js",
+  "push": {
+    "files": [
+      {
+        "path": "./public/i18n/en.json",
+        "language": "en"
+      }
+    ],
+    "forceMode": "OVERRIDE"
+  },
+  "pull": {
+    "path": "./public/i18n",
+    "emptyDir": true
+  }
+}

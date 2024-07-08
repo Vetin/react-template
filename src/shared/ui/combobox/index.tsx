@@ -1,0 +1,13 @@
+import {Combobox} from '@mantine/core';
+import '@mantine/core/styles/Combobox.css';
+import '@mantine/core/styles/Anchor.css';
+import '@mantine/core/styles/Button.css';
+import '@mantine/core/styles/Loader.css';
+import '@mantine/core/styles/UnstyledButton.css';
+import '@mantine/core/styles/Popover.css';
+import '@mantine/core/styles/Group.css';
+import '@mantine/core/styles/Tooltip.css';
+import '@mantine/core/styles/ScrollArea.css';
+import '@mantine/core/styles/Text.css';
+import '@mantine/core/styles/Input.css';
+export {Combobox};

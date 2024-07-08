@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    lint:
+      run: eslint --report-unused-disable-directives --ext .ts,.tsx {staged_files} --no-fix --cache
+    format:
+      run: pnpm prettier --check --cache --cache-strategy metadata {staged_files}

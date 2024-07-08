@@ -1,0 +1,12 @@
+import {HoverCard} from '@mantine/core';
+import '@mantine/core/styles/Button.css';
+import '@mantine/core/styles/Loader.css';
+import '@mantine/core/styles/UnstyledButton.css';
+import '@mantine/core/styles/Switch.css';
+import '@mantine/core/styles/Group.css';
+import '@mantine/core/styles/Stack.css';
+import '@mantine/core/styles/InlineInput.css';
+import '@mantine/core/styles/Input.css';
+import '@mantine/core/styles/Tooltip.css';
+import '@mantine/core/styles/Popover.css';
+export {HoverCard};
