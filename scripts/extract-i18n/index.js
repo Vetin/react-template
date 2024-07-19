@@ -3,7 +3,7 @@ import extractor from '@tolgee/cli/dist/extractor/extractor.js';
 const ROOT_NS_HOC = 'withNamespace(import.meta.url';
 
 const extractFeaturePath = path => {
-  const regex = /src\/(features\/[^/]+)\//;
+  const regex = /src\/((features|entities|pages|widgets)\/[^/]+)\//;
   const match = path.match(regex);
   return match ? match[1] : null;
 };
