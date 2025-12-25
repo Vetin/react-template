@@ -23,7 +23,7 @@
     "react-hook-form": "7.52.1",
     "react-router-dom": "6.24.1",
     "react-router-typesafe-routes": "1.2.2",
-    "valibot": "0.36.0"
+    "valibot": "1.2.0"
   },
   "devDependencies": {
     "@preact/signals-react-transform": "0.3.2",
